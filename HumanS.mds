@@ -140,14 +140,14 @@ Model ("HuS")
 // ---------------------------------------------------------------------------------------------------------------
 //	TURNING
 
-			ani			("t_RunTurnL"			20	"t_RunTurnL"	0.2	0.2	M.	"Hum_TurnL_A05.asc"			F	1	20)
+			ani			("t_RunTurnL"			20	"t_RunTurnL"	0.2	0.2	M.	"HUM_TURNL_M03.ASC"			F	1	20)
 			{
 				*eventSFXGrnd	(10	"Turn")
 				*eventSFXGrnd	(20	"Turn")
 			}
 
 
-			ani			("t_RunTurnR"			20	"t_RunTurnR"	0.2	0.2	M.	"Hum_TurnR_A05.asc"			F	1	20)
+			ani			("t_RunTurnR"			20	"t_RunTurnR"	0.2	0.2	M.	"HUM_TURNR_A03.ASC"			F	1	20)
 //			ani			("t_RunTurnR"			20	"t_RunTurnR"	0.2	0.2	M.	"Hum_TurnR_A01.asc"			R	0	24)
 			{
 				*eventSFXGrnd	(10	"Turn")
@@ -1437,7 +1437,7 @@ Model ("HuS")
 ///////////////////////
 
 //	1h-RUN
-			ani			("s_1hRun"					1	"s_1hRun"		0.1 0.1 MI	"Hum_Amb_1hRunT0_A01.asc"	F	1	50	FPS:10)
+			ani			("s_1hRun"					1	"s_1hRun"		0.1 0.1 MI	"HUM_AMB_2HRUNT1_M01.ASC"	F	1	50	FPS:10)
 			ani			("t_1hRun_2_1hRunL"			1	"s_1hRunL"		0.1	0.0	M.	"Hum_1hRunT0_A01.asc"			F	1	11)
 
 //	1h-Run-Loop
